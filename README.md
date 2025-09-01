@@ -1,23 +1,25 @@
 # ARM Microprocessor Programming on CPulator  
 
-This repository contains assembly programs written and tested on the CPulator ARMv7 emulator. It demonstrates fundamental ARM coding concepts such as arithmetic operations, control flow, memory manipulation, and stack usage.  
+This repository contains ARM assembly programs developed and tested on the CPulator ARMv7 emulator, focusing on both fundamental operations and hardware-like control tasks.  
 
 ---
 
 ## 🚀 Features  
-- Basic arithmetic (add, sub, mul, div)  
-- Conditional branching and loops  
-- Subroutines and stack operations  
-- Load/Store instructions for memory handling  
+- Arithmetic and logic operations (add, sub, mul, div)  
+- Conditional branching, loops, and subroutines  
+- I/O control with LEDs and switches using memory-mapped registers  
+- Handling input values from switches and producing output signals on LEDs  
+- Stack operations and structured program design  
 
 ---
 
 ## 🔧 Usage  
 1. Open [CPulator](https://cpulator.01xz.net/?sys=arm).  
 2. Paste the assembly code into the editor.  
-3. Assemble and run the program to view output in registers/memory.  
+3. Assemble and run the program.  
+4. Use the CPulator’s switch and LED panel to interact with I/O programs.  
 
 ---
 
 ## 📘 Purpose  
-This project is a learning resource for students to understand ARM assembly, instruction sets, and low-level programming without requiring physical hardware.  
+Beyond simple instruction practice, this project demonstrates how to interface with simulated hardware in CPulator. Writing assembly to control LED states and read switch inputs builds a deeper understanding of memory-mapped I/O, register manipulation, and real-world microcontroller behavior.  
